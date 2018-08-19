@@ -20,7 +20,7 @@ module.exports = function(app) {
         var userInput = req.body;
 		//console.log('userInput = ' + JSON.stringify(friends));
 
-		var userResponses = userInput.scores;
+		var userResponses = userInput.score;
 		// console.log('userResponses = ' + userResponses);
 
 		// Compute best friend match
